@@ -1,0 +1,67 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    margin:auto;
+    background-image: url('curry.jpg');
+    background-size: cover;
+    background-color: #697792;
+}
+
+.alert{
+    opacity: 0.7;
+    background-color: #b30f0f;
+    text-align: center;
+    color: white;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+    padding:  10px;
+}
+
+#start{
+ padding: 50px;
+ text-align: center;
+ justify-content: center;
+ height: 10rem;
+ width: 50%;
+ margin-top: 50px;
+ float: left;
+}
+
+#start-btn{
+    margin-bottom: 10px;
+    color:white;
+    background-color: #586378;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+
+#start-btn:hover{
+ box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.24),0 20px 60px 0 rgba(0,0,0,0.19);
+ cursor: pointer;
+ transform: scale(1.0);
+
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+input[type=text]{
+    margin-top: 5px;
+    border:none;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type=text]:hover{
+    border-color: #000;
+}
